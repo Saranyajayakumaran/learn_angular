@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-
+num1 = 10;
+num2 = 20;
 }
