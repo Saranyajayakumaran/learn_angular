@@ -11,5 +11,5 @@ num1 = 10;
 num2 = 20;
 imgURL: string = 'https://cdn.pixabay.com/photo/2015/04/23/22/00/new-year-background-736885_1280.jpg';
 isDisabled: boolean=true;
-isActive: boolean=true;
+isActive: boolean=false;
 }
