@@ -1,5 +1,9 @@
 <p>header works!</p>
 <p> Sum : {{ num1 + num2 }} </p>
-<img [src]="imgURL" alt="">
+<!--<img [src]="imgURL" alt="">-->
 <button disabled="{{ isDisabled }}">disable using string interpolation</button>
 <button [disabled]="isDisabled">disable using property binding</button>
+
+
+<!--Class Binding-->
+<button [class.active]="isActive"> click me for color change </button>
